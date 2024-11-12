@@ -70,7 +70,7 @@ export default class ContactDataTable extends NavigationMixin(
   @track downloadType;
 
   @track clickedImageUrl;
-  prefixUrl = `/sfc/servlet.shepherd/version/renditionDownload?rendition=thumb720by480&versionId=`;
+  prefixUrl = `/granjas/sfc/servlet.shepherd/version/renditionDownload?rendition=thumb720by480&versionId=`;
 
   @track page = 1;
   @track startingRecord = 1;
